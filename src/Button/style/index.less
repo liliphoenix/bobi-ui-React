@@ -1,0 +1,158 @@
+@import '../../../assets/index.less';
+// button-hover-color
+@hover-text-color:rgb(55, 115, 218);
+@hover-text-backgroundColor:rgb(242, 243, 245);
+@hover-primary-color:rgb(8, 102, 196);
+@hover-primary-borderColor:rgb(21, 91, 212);
+@hover-default-backgroundColor:rgb(55, 115, 218);
+@btn-height-default:32px;
+// button-active-color
+@active-default-background:rgb(17, 77, 180);
+@active-primary-color:rgb(50, 50, 51);
+@active-primary-background:rgb(234, 234, 234);
+@active-primary-border:rgb(220, 222, 224);;
+@active-text-color:rgb(17, 77, 180);
+// button-disabled-color
+@disabled-color:rgb(200, 201, 204);
+@disabled-background:rgb(247, 248, 250);
+@disabled-border:rgb(235, 237, 240);
+
+//button-size
+@small-padding:3px 8px;
+@small-min-width:58px;
+@small-text:12px;
+@medium-padding:3px 8px;
+@medium-min-width:74px;
+@medium-text:14px;
+@large-padding:3px 8px;
+@large-min-width:96px;
+@large-text:16px;
+
+//text-size
+
+
+// 定义button的样式统一变量名
+@prefix:bobi-ui-btn;
+// 按钮的基本样式
+.@{prefix}{
+
+    color:@text-color-white;
+    font-weight: 400;
+    line-height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// 尺寸
+.@{prefix}-small{
+    height: 26px;
+    min-width: @small-min-width;
+    font-size: @small-text
+}
+.@{prefix}-medium{
+    height: 32px;
+    min-width: @medium-min-width;
+    font-size: @medium-text;
+}
+.@{prefix}-large{
+    min-width: @large-min-width;
+    height: 40px;
+    font-size: @large-text
+}
+
+
+.@{prefix}-default{
+    background-color: @main-color;
+    &:hover {
+        background-color:@hover-default-backgroundColor ;
+    }
+    &:active{
+        background-color:@active-default-background
+    }
+    &-disabled{
+        background-color: @disabled-background;
+        color: @disabled-color;
+        border-color: @disabled-border;
+        &:hover{
+            cursor: not-allowed;
+            background-color:@disabled-background
+        }
+    }
+
+}
+.@{prefix}-primary{
+    color: @text-color-black;
+    background-color: @primary-color;
+    border: 1px solid @border-color;
+    &:hover{
+        border-color: @hover-primary-color;
+        color: @hover-primary-color;
+    }
+    &:active{
+        color:@active-primary-color;
+        border-color: @active-primary-border;
+        background-color: @active-primary-background;
+    }
+    &-disabled{
+        background-color: @disabled-background;
+        color: @disabled-color;
+        border-color: @disabled-border;
+        &:hover{
+            cursor: not-allowed;
+            background-color:@disabled-background;
+            color: @disabled-color;
+            border-color: @disabled-border;
+        }
+    }
+}
+.@{prefix}-danger{
+    background-color: @danger-color;
+    &-disabled{
+        background-color: @disabled-background;
+        color: @disabled-color;
+        border-color: @disabled-border;
+        &:hover{
+            cursor: not-allowed;
+            background-color:@disabled-background
+        }
+    }
+}
+.@{prefix}-warning{
+    background-color: @warning-color;
+    &-disabled{
+        background-color: @disabled-background;
+        color: @disabled-color;
+        border-color: @disabled-border;
+        &:hover{
+            cursor: not-allowed;
+            background-color:@disabled-background
+        }
+    }
+}
+.@{prefix}-text{
+    color:@main-color;
+    height: 24px;
+    padding: 2px 8px;
+    background-color: transparent;
+    &:hover{
+        color: @hover-text-color;
+        background-color: @hover-text-backgroundColor;
+    }
+    &:active{
+        color:@active-text-color
+    }
+    &-disabled{
+        color: @disabled-color;
+        &:hover{
+            cursor: not-allowed;
+            color: @disabled-color;
+            background-color:transparent
+        }
+    }
+
+}
