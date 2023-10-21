@@ -76,3 +76,15 @@ lerna create xxx
 `yarn add --dev eslint-plugin-import@^2.25.3 eslint-plugin-jsx-a11y@^6.5.1 eslint-plugin-react@^7.28.0 eslint-plugin-react-hooks@^4.3.0 -W `
 `yarn add --dev eslint-config-airbnb eslint-config-airbnb-typescript `
 安装完 airbnb 和 airbnb 所需的依赖
+
+#### commitlint
+
+首先是安装 commitlint @commitlint/cli @commitlint/config-conventional(这个是 commitlint 的普遍规则 type: description)
+然后安装 一直提交信息插件
+用 cz-customizable 來代替 git commit 提交信息
+`npm i -D cz-customizable `
+然后安装 commitlint 来使用 agular 规则来规范，在 cz-config 配置文件添加响应的扩展
+`npm i -D @commitlint/cli @commitlint/config-conventional `
+然后安装 husky 来添加 git hooks
+`npm install --save-dev husky  npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"' `
+因为不支持 emoji 所以下插件

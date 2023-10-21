@@ -380,16 +380,16 @@
   resolved "https://registry.npmmirror.com/@bloomberg/record-tuple-polyfill/-/record-tuple-polyfill-0.0.4.tgz#9ef3df44e472ceb9a0a2010d858a526f2021fefa"
   integrity sha512-h0OYmPR3A5Dfbetra/GzxBAzQk8sH7LhRkRUTdagX6nrtlUgJGYCTv4bBK33jsTQw9HDd8PE2x1Ma+iRKEDUsw==
 
-"@commitlint/cli@^17.1.2":
-  version "17.8.0"
-  resolved "https://registry.npmmirror.com/@commitlint/cli/-/cli-17.8.0.tgz#917761331df4b7a0b97b2b31415b006847b6fd02"
-  integrity sha512-D3LdyZYbiRyAChfJMNlAd9f2P9vNQ7GWbI9gN2o7L5hF07QJDqj4z/pcJF3PjDbJWOaUUXla287RdDmmKqH2WQ==
+"@commitlint/cli@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/cli/-/cli-18.0.0.tgz#69455c429211aef1b058a2bd22c34eb840eb6730"
+  integrity sha512-0HuJB7VfxSqia0r+mZ9VLgTc5gPaRDiQtloLfwCBp63PvpFn2sZsidiZBbym3jDC6+P47HSuIdRRg3/JsCcBwA==
   dependencies:
-    "@commitlint/format" "^17.4.4"
-    "@commitlint/lint" "^17.8.0"
-    "@commitlint/load" "^17.8.0"
-    "@commitlint/read" "^17.5.1"
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/format" "^18.0.0"
+    "@commitlint/lint" "^18.0.0"
+    "@commitlint/load" "^18.0.0"
+    "@commitlint/read" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
     execa "^5.0.0"
     lodash.isfunction "^3.0.9"
     resolve-from "5.0.0"
@@ -403,67 +403,67 @@
   dependencies:
     conventional-changelog-conventionalcommits "^6.1.0"
 
-"@commitlint/config-validator@^17.6.7":
-  version "17.6.7"
-  resolved "https://registry.npmmirror.com/@commitlint/config-validator/-/config-validator-17.6.7.tgz#c664d42a1ecf5040a3bb0843845150f55734df41"
-  integrity sha512-vJSncmnzwMvpr3lIcm0I8YVVDJTzyjy7NZAeXbTXy+MPUdAr9pKyyg7Tx/ebOQ9kqzE6O9WT6jg2164br5UdsQ==
+"@commitlint/config-validator@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/config-validator/-/config-validator-18.0.0.tgz#c48e86a16e6b2d7a717c23a7ed39a839a65fe769"
+  integrity sha512-PlXy5QZzQeMgQM7jb0odIhxsI6GWcbGgfy+Hkz5ap31KES/oJgtEvgD8pjg0Z9Ri296bT6zK3ts6brS0MAcMgg==
   dependencies:
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/types" "^18.0.0"
     ajv "^8.11.0"
 
-"@commitlint/ensure@^17.6.7":
-  version "17.6.7"
-  resolved "https://registry.npmmirror.com/@commitlint/ensure/-/ensure-17.6.7.tgz#77a77a0c05e6a1c34589f59e82e6cb937101fc4b"
-  integrity sha512-mfDJOd1/O/eIb/h4qwXzUxkmskXDL9vNPnZ4AKYKiZALz4vHzwMxBSYtyL2mUIDeU9DRSpEUins8SeKtFkYHSw==
+"@commitlint/ensure@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/ensure/-/ensure-18.0.0.tgz#877f723b65b9f4d6faa14b0380ffd350960c3bec"
+  integrity sha512-AhzK4ybWGVmO7lwC33dGujS0k2IZDNFiew80M1H2R5Ou7Qkqq7sbuMZoof+yjOQcqltYP4IHLd0YECZoGermvQ==
   dependencies:
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/types" "^18.0.0"
     lodash.camelcase "^4.3.0"
     lodash.kebabcase "^4.1.1"
     lodash.snakecase "^4.1.1"
     lodash.startcase "^4.4.0"
     lodash.upperfirst "^4.3.1"
 
-"@commitlint/execute-rule@^17.4.0":
-  version "17.4.0"
-  resolved "https://registry.npmmirror.com/@commitlint/execute-rule/-/execute-rule-17.4.0.tgz#4518e77958893d0a5835babe65bf87e2638f6939"
-  integrity sha512-LIgYXuCSO5Gvtc0t9bebAMSwd68ewzmqLypqI2Kke1rqOqqDbMpYcYfoPfFlv9eyLIh4jocHWwCK5FS7z9icUA==
+"@commitlint/execute-rule@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/execute-rule/-/execute-rule-18.0.0.tgz#4d0dc224b257e15e373bae098f5f55257a1aad28"
+  integrity sha512-eNUSaHajb+g3sgZeIrfc6cXNnKIkYN2SXtDVXuiE+hOa055T0bLdZK29gSd945JCztxPVwdOkPLDeLg3NfDubg==
 
-"@commitlint/format@^17.4.4":
-  version "17.4.4"
-  resolved "https://registry.npmmirror.com/@commitlint/format/-/format-17.4.4.tgz#0f6e1b4d7a301c7b1dfd4b6334edd97fc050b9f5"
-  integrity sha512-+IS7vpC4Gd/x+uyQPTAt3hXs5NxnkqAZ3aqrHd5Bx/R9skyCAWusNlNbw3InDbAK6j166D9asQM8fnmYIa+CXQ==
+"@commitlint/format@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/format/-/format-18.0.0.tgz#43b522e7e375c0becfceb4812abe0fa44c6f0b7e"
+  integrity sha512-etvUmOufihecdNm0r5+rCetrO2Yj7fSkJ4f0k8xOzqrrNdID9G/6iK14i/ufISBLSSy0XzsiiV+Rn9TX/cg46Q==
   dependencies:
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/types" "^18.0.0"
     chalk "^4.1.0"
 
-"@commitlint/is-ignored@^17.8.0":
-  version "17.8.0"
-  resolved "https://registry.npmmirror.com/@commitlint/is-ignored/-/is-ignored-17.8.0.tgz#429a050cebe8dc56dd4fe4f4c23ea9e1a679dfc6"
-  integrity sha512-8bR6rxNcWaNprPBdE4ePIOwbxutTQGOsRPYWssX+zjGxnEljzaZSGzFUOMxapYILlf8Tts/O1wPQgG549Rdvdg==
+"@commitlint/is-ignored@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/is-ignored/-/is-ignored-18.0.0.tgz#980fd497186e321c68d97ca49178afce726951d1"
+  integrity sha512-fAUOF4GlKTmreE5hxhLlVUcXd1aIexxn+edocbMSwOa4dcm8OoHbsLcDB/rhwXIK+jzK4DybCMCx1VaTeRC4SQ==
   dependencies:
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/types" "^18.0.0"
     semver "7.5.4"
 
-"@commitlint/lint@^17.8.0":
-  version "17.8.0"
-  resolved "https://registry.npmmirror.com/@commitlint/lint/-/lint-17.8.0.tgz#d3a7fafe810db060aea15322e30384896da887f9"
-  integrity sha512-4ihwnqOY4TcJN6iz5Jv1LeYavvBllONwFyGxOIWmCT5s4PNMb43cws2TUdbXTZL1Vq59etGKd5LWYDFPVbs5EA==
+"@commitlint/lint@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/lint/-/lint-18.0.0.tgz#81c923a22cb9c6151794a320fa32feef9a8bb14c"
+  integrity sha512-Vqg6sIPm7nELu/U4lEzKMdLYaELgwSySGZzKc2YjJxdJWyiQo0b1hfCpxXsWGdNBOt0+CM4eBAGoX/Kjq5AYNA==
   dependencies:
-    "@commitlint/is-ignored" "^17.8.0"
-    "@commitlint/parse" "^17.7.0"
-    "@commitlint/rules" "^17.7.0"
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/is-ignored" "^18.0.0"
+    "@commitlint/parse" "^18.0.0"
+    "@commitlint/rules" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
 
-"@commitlint/load@^17.8.0":
-  version "17.8.0"
-  resolved "https://registry.npmmirror.com/@commitlint/load/-/load-17.8.0.tgz#82f6c7555daecb4ce4b8a6282fcecc3665747578"
-  integrity sha512-9VnGXYJCP4tXmR4YrwP8n5oX6T5ZsHfPQq6WuUQOvAI+QsDQMaTGgTRXr7us+xsjz+b+mMBSagogqfUx2aixyw==
+"@commitlint/load@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/load/-/load-18.0.0.tgz#fb5fca987dc287dee14c36b8a80a082050c144bf"
+  integrity sha512-ocvMSkzNZCJ4yV673xjd4Y7sFVG/mg7S6yvL5ioM0OIG2XTbcCdzpmq+BeJcIwsRYU9g/b688yh7RDzGlbai6w==
   dependencies:
-    "@commitlint/config-validator" "^17.6.7"
-    "@commitlint/execute-rule" "^17.4.0"
-    "@commitlint/resolve-extends" "^17.6.7"
-    "@commitlint/types" "^17.4.4"
-    "@types/node" "20.5.1"
+    "@commitlint/config-validator" "^18.0.0"
+    "@commitlint/execute-rule" "^18.0.0"
+    "@commitlint/resolve-extends" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
+    "@types/node" "^18.11.9"
     chalk "^4.1.0"
     cosmiconfig "^8.0.0"
     cosmiconfig-typescript-loader "^4.0.0"
@@ -472,72 +472,79 @@
     lodash.uniq "^4.5.0"
     resolve-from "^5.0.0"
     ts-node "^10.8.1"
-    typescript "^4.6.4 || ^5.0.0"
+    typescript "^5.2.2"
 
-"@commitlint/message@^17.4.2":
-  version "17.4.2"
-  resolved "https://registry.npmmirror.com/@commitlint/message/-/message-17.4.2.tgz#f4753a79701ad6db6db21f69076e34de6580e22c"
-  integrity sha512-3XMNbzB+3bhKA1hSAWPCQA3lNxR4zaeQAQcHj0Hx5sVdO6ryXtgUBGGv+1ZCLMgAPRixuc6en+iNAzZ4NzAa8Q==
+"@commitlint/message@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/message/-/message-18.0.0.tgz#17c8123b35027682ef5e050b54dc7c5e82e2190c"
+  integrity sha512-FJmEBn81RMEZrG1E1BxmjNoe/Rz918IeIGJRe5YXxM7IXboFhKS69rHPttNjKwSS038t6GUsRUJrAWqZnA6nCw==
 
-"@commitlint/parse@^17.7.0":
-  version "17.7.0"
-  resolved "https://registry.npmmirror.com/@commitlint/parse/-/parse-17.7.0.tgz#aacb2d189e50ab8454154b1df150aaf20478ae47"
-  integrity sha512-dIvFNUMCUHqq5Abv80mIEjLVfw8QNuA4DS7OWip4pcK/3h5wggmjVnlwGCDvDChkw2TjK1K6O+tAEV78oxjxag==
+"@commitlint/parse@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/parse/-/parse-18.0.0.tgz#f56e29c5521f98156d3eb51bd7adf1b0472051bc"
+  integrity sha512-qbZYOCpIZzfFzV35s5ei3JkBG/8KUOyGYluAeaYIcYC9z0uKXEVK6O2F2P/KLvbTkgZ4Q9OOLDrrtoWzPb2pjg==
   dependencies:
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/types" "^18.0.0"
     conventional-changelog-angular "^6.0.0"
-    conventional-commits-parser "^4.0.0"
+    conventional-commits-parser "^5.0.0"
 
-"@commitlint/read@^17.5.1":
-  version "17.5.1"
-  resolved "https://registry.npmmirror.com/@commitlint/read/-/read-17.5.1.tgz#fec903b766e2c41e3cefa80630040fcaba4f786c"
-  integrity sha512-7IhfvEvB//p9aYW09YVclHbdf1u7g7QhxeYW9ZHSO8Huzp8Rz7m05aCO1mFG7G8M+7yfFnXB5xOmG18brqQIBg==
+"@commitlint/read@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/read/-/read-18.0.0.tgz#e9acb501bf8c206174af5e36eca7248c979b8fb7"
+  integrity sha512-VclRvG+ZvHOjYP4rmKPfNwS7eSI5m68D/CPtT2do/D4EBljmLBwqCYVL1I/3y2E6Fbub1GfYoXiRHThd1cVlag==
   dependencies:
-    "@commitlint/top-level" "^17.4.0"
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/top-level" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
     fs-extra "^11.0.0"
     git-raw-commits "^2.0.11"
     minimist "^1.2.6"
 
-"@commitlint/resolve-extends@^17.6.7":
-  version "17.6.7"
-  resolved "https://registry.npmmirror.com/@commitlint/resolve-extends/-/resolve-extends-17.6.7.tgz#9c53a4601c96ab2dd20b90fb35c988639307735d"
-  integrity sha512-PfeoAwLHtbOaC9bGn/FADN156CqkFz6ZKiVDMjuC2N5N0740Ke56rKU7Wxdwya8R8xzLK9vZzHgNbuGhaOVKIg==
+"@commitlint/resolve-extends@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/resolve-extends/-/resolve-extends-18.0.0.tgz#9b5b2751d32c35cb32f6545cb7bbbdeba46cabc1"
+  integrity sha512-MD9+6GSiWvqgdJtfos+1gqz+zmy2vV7TbUVz2ETZzpfECgmUZSZSYzyivivBAQK6feS71KxmMLL8+YFF9+FFRQ==
   dependencies:
-    "@commitlint/config-validator" "^17.6.7"
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/config-validator" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
     import-fresh "^3.0.0"
     lodash.mergewith "^4.6.2"
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
 
-"@commitlint/rules@^17.7.0":
-  version "17.7.0"
-  resolved "https://registry.npmmirror.com/@commitlint/rules/-/rules-17.7.0.tgz#b97a4933c5cba11a659a19ee467f6f000f31533e"
-  integrity sha512-J3qTh0+ilUE5folSaoK91ByOb8XeQjiGcdIdiB/8UT1/Rd1itKo0ju/eQVGyFzgTMYt8HrDJnGTmNWwcMR1rmA==
+"@commitlint/rules@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/rules/-/rules-18.0.0.tgz#f82bef1bce196963abbd352e79bf90f358a273c0"
+  integrity sha512-J7xjMKC4H1hfZR8fmPPuV35wS8Vgy3YX9xIpfPJhsDnRk2BL/dyZjNEXPdvlbpvkNgkfIWi0A0IDtW1dDoViag==
   dependencies:
-    "@commitlint/ensure" "^17.6.7"
-    "@commitlint/message" "^17.4.2"
-    "@commitlint/to-lines" "^17.4.0"
-    "@commitlint/types" "^17.4.4"
+    "@commitlint/ensure" "^18.0.0"
+    "@commitlint/message" "^18.0.0"
+    "@commitlint/to-lines" "^18.0.0"
+    "@commitlint/types" "^18.0.0"
     execa "^5.0.0"
 
-"@commitlint/to-lines@^17.4.0":
-  version "17.4.0"
-  resolved "https://registry.npmmirror.com/@commitlint/to-lines/-/to-lines-17.4.0.tgz#9bd02e911e7d4eab3fb4a50376c4c6d331e10d8d"
-  integrity sha512-LcIy/6ZZolsfwDUWfN1mJ+co09soSuNASfKEU5sCmgFCvX5iHwRYLiIuoqXzOVDYOy7E7IcHilr/KS0e5T+0Hg==
+"@commitlint/to-lines@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/to-lines/-/to-lines-18.0.0.tgz#d2c2c8c30fc03cf2562caaca36604891fa1ec1dc"
+  integrity sha512-HwwBvzXX+3x7XYvBrEKy69S9w/clUEL0gMwkXTtg5awUpvEvzmTz1FBE/5WIiUICyOGdH1NhV1WgKb7UwOnI4A==
 
-"@commitlint/top-level@^17.4.0":
-  version "17.4.0"
-  resolved "https://registry.npmmirror.com/@commitlint/top-level/-/top-level-17.4.0.tgz#540cac8290044cf846fbdd99f5cc51e8ac5f27d6"
-  integrity sha512-/1loE/g+dTTQgHnjoCy0AexKAEFyHsR2zRB4NWrZ6lZSMIxAhBJnmCqwao7b4H8888PsfoTBCLBYIw8vGnej8g==
+"@commitlint/top-level@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/top-level/-/top-level-18.0.0.tgz#08c763dfbdb6d87ebd4e3bf72859806f4cc21af6"
+  integrity sha512-6+jjZhe9pF7ioD9IR2HChteTh95KPXa7GUUV52e0YhEsFArkCnyhzSL72ko1c2Xad0sWNBL0e76mifi20wD/Bg==
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^17.4.4":
-  version "17.4.4"
-  resolved "https://registry.npmmirror.com/@commitlint/types/-/types-17.4.4.tgz#1416df936e9aad0d6a7bbc979ecc31e55dade662"
-  integrity sha512-amRN8tRLYOsxRr6mTnGGGvB5EmW/4DDjLMgiwK3CCVEmN6Sr/6xePGEpWaspKkckILuUORCwe6VfDBw6uj4axQ==
+"@commitlint/types@^17":
+  version "17.8.1"
+  resolved "https://registry.npmmirror.com/@commitlint/types/-/types-17.8.1.tgz#883a0ad35c5206d5fef7bc6ce1bbe648118af44e"
+  integrity sha512-PXDQXkAmiMEG162Bqdh9ChML/GJZo6vU+7F03ALKDK8zYc6SuAr47LjG7hGYRqUOz+WK0dU7bQ0xzuqFMdxzeQ==
+  dependencies:
+    chalk "^4.1.0"
+
+"@commitlint/types@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@commitlint/types/-/types-18.0.0.tgz#e4b86c605e0d94d10a7487848e505983f15a715b"
+  integrity sha512-FDzAdSm7kIir0NW0bZLENdrEgf/9Ihs1AAqE9DK9R+dRFby4ookkxPMaz7elZmG+e5rBl7hGrWJzJINqG9cDDg==
   dependencies:
     chalk "^4.1.0"
 
@@ -976,6 +983,26 @@
     "@formatjs/intl-listformat" "7.5.0"
     intl-messageformat "10.5.4"
     tslib "^2.4.0"
+
+"@gitmoji/commit-types@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.npmmirror.com/@gitmoji/commit-types/-/commit-types-1.1.5.tgz#8ca89aeea4e253a3818ac63206b4eb4f2352c4ff"
+  integrity sha512-8D3FZMRY+gtYpTcHG1SOGmm9CFqxNh6rI9xDoCydxHxnWgqInbdF3nk9gibW5gXA58Hf2cVcJaLEcGOKLRAtmw==
+
+"@gitmoji/gitmoji-regex@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@gitmoji/gitmoji-regex/-/gitmoji-regex-1.0.0.tgz#937645b0bb90de70538a172efb5a07b81d6d22fd"
+  integrity sha512-+BFXxcWCxn0UIYuG1v5n9SfaCCS8tw95j1x3QsTJRdGGiihRyVLTHiu1wrHlzH3z4nYXKjCKiZFTdWwMjRI+gQ==
+  dependencies:
+    emoji-regex "^10"
+    gitmojis "^3"
+
+"@gitmoji/parser-opts@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.npmmirror.com/@gitmoji/parser-opts/-/parser-opts-1.4.0.tgz#16891bceab2dd2c44c7fd930413e959a033c27f9"
+  integrity sha512-zzmx/vtpdB/ijjUm7u9OzHNCXWKpSbzVEgVzOzhilMgoTBlUDyInZFUtiCTV+Wf4oCP9nxGa/kQGQFfN+XLH1g==
+  dependencies:
+    "@gitmoji/gitmoji-regex" "1.0.0"
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
@@ -2054,15 +2081,15 @@
   dependencies:
     undici-types "~5.25.1"
 
-"@types/node@20.5.1":
-  version "20.5.1"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-20.5.1.tgz#178d58ee7e4834152b0e8b4d30cbfab578b9bb30"
-  integrity sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==
-
 "@types/node@^17.0.5":
   version "17.0.45"
   resolved "https://registry.npmmirror.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
   integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
+
+"@types/node@^18.11.9":
+  version "18.18.6"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-18.18.6.tgz#26da694f75cdb057750f49d099da5e3f3824cb3e"
+  integrity sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.2"
@@ -2858,6 +2885,11 @@ anymatch@^3.0.3, anymatch@~3.1.2:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+app-root-path@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/app-root-path/-/app-root-path-3.0.0.tgz#210b6f43873227e18a4b810a032283311555d5ad"
+  integrity sha512-qMcx+Gy2UZynHjOHOIXPNvpf+9cjvk3cWrBBK7zg4gH9+clobJRb9NGzcT7mQTcV/6Gm/1WelUtqxVXnNlrwcw==
 
 "aproba@^1.0.3 || ^2.0.0":
   version "2.0.0"
@@ -4003,6 +4035,38 @@ commander@^8.3.0:
   resolved "https://registry.npmmirror.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
+commitlint-config-cz@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.npmmirror.com/commitlint-config-cz/-/commitlint-config-cz-0.13.3.tgz#a3e00bf2b98626f98a7e92c142ce081b1d6d179b"
+  integrity sha512-6LmCvGiFDTVSmLF0mzVVp1etMM8lAqLmPRlU7Oml1J8J9oOLadf+2g4uMTchdxOvvYLgll99SESFUHgmc6oATA==
+  dependencies:
+    app-root-path "~3.0.0"
+    lodash.clonedeep "~4.5.0"
+
+commitlint-config-git-commit-emoji@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/commitlint-config-git-commit-emoji/-/commitlint-config-git-commit-emoji-1.0.0.tgz#56b9c9b164c55c608da71d8e82424430c87c1dd2"
+  integrity sha512-AnWvAu50BZ2ikzlsECKya4nAvPdu62RC3U/8wmb8TlSiLbaLrz10jV8On/8tc2UW1C9ckuLQx3WkLhaiFcvPhg==
+
+commitlint-config-gitmoji@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npmmirror.com/commitlint-config-gitmoji/-/commitlint-config-gitmoji-2.3.1.tgz#754a2167068c6a80644969b379341e8a9f041aca"
+  integrity sha512-T15ssbsyNc6szHlnGWo0/xvIA1mObqM70E9TwKNVTpksxhm+OdFht8hvDdKJAVi4nlZX5tcfTeILOi7SHBGH3w==
+  dependencies:
+    "@commitlint/types" "^17"
+    "@gitmoji/commit-types" "1.1.5"
+    "@gitmoji/parser-opts" "1.4.0"
+    commitlint-plugin-gitmoji "2.2.6"
+
+commitlint-plugin-gitmoji@2.2.6:
+  version "2.2.6"
+  resolved "https://registry.npmmirror.com/commitlint-plugin-gitmoji/-/commitlint-plugin-gitmoji-2.2.6.tgz#cae0b406646c3965b96e217b5e8a33d1de5fc7e6"
+  integrity sha512-oKHPHeNXby0Ix0ZbHVSK5ZyPx1V4fyBjLOy93cYwXhOEPXe36nkDc/HDPFfQpzx1vz39277TaP9LScbqTbscfQ==
+  dependencies:
+    "@commitlint/types" "^17"
+    "@gitmoji/gitmoji-regex" "1.0.0"
+    gitmojis "^3"
+
 common-path-prefix@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/common-path-prefix/-/common-path-prefix-3.0.0.tgz#7d007a7e07c58c4b4d5f433131a19141b29f11e0"
@@ -4139,6 +4203,16 @@ conventional-commits-parser@^4.0.0:
     is-text-path "^1.0.1"
     meow "^8.1.2"
     split2 "^3.2.2"
+
+conventional-commits-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/conventional-commits-parser/-/conventional-commits-parser-5.0.0.tgz#57f3594b81ad54d40c1b4280f04554df28627d9a"
+  integrity sha512-ZPMl0ZJbw74iS9LuX9YIAiW8pfM5p3yh2o/NbXHbkFuZzY5jvdi5jFycEOkmBW5H5I7nA+D6f3UcsCLP2vvSEA==
+  dependencies:
+    JSONStream "^1.3.5"
+    is-text-path "^2.0.0"
+    meow "^12.0.1"
+    split2 "^4.0.0"
 
 conventional-recommended-bump@7.0.1:
   version "7.0.1"
@@ -4458,6 +4532,18 @@ cyclist@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/cyclist/-/cyclist-1.0.2.tgz#673b5f233bf34d8e602b949429f8171d9121bea3"
   integrity sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==
+
+cz-customizable@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmmirror.com/cz-customizable/-/cz-customizable-7.0.0.tgz#2a291010bae48936cb2d917447bf83b67fa497df"
+  integrity sha512-pQKkGSm+8SY9VY/yeJqDOla1MjrGaG7WG4EYLLEV4VNctGO7WdzdGtWEr2ydKSkrpmTs7f8fmBksg/FaTrUAyw==
+  dependencies:
+    editor "1.0.0"
+    find-config "^1.0.0"
+    inquirer "^6.3.1"
+    lodash "^4.17.19"
+    temp "^0.9.0"
+    word-wrap "^1.2.3"
 
 damerau-levenshtein@^1.0.8:
   version "1.0.8"
@@ -4953,6 +5039,11 @@ editions@^2.2.0:
     errlop "^2.0.0"
     semver "^6.3.0"
 
+editor@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/editor/-/editor-1.0.0.tgz#60c7f87bd62bcc6a894fa8ccd6afb7823a24f742"
+  integrity sha512-SoRmbGStwNYHgKfjOrX2L0mUvp9bUVv0uPppZSOMAntEbcFtoC3MKF5b3T6HQPXKIV+QGY3xPO3JK5it5lVkuw==
+
 ejs@^3.1.7:
   version "3.1.9"
   resolved "https://registry.npmmirror.com/ejs/-/ejs-3.1.9.tgz#03c9e8777fe12686a9effcef22303ca3d8eeb361"
@@ -4977,6 +5068,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emoji-regex@^10:
+  version "10.3.0"
+  resolved "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-10.3.0.tgz#76998b9268409eb3dae3de989254d456e70cfe23"
+  integrity sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -5866,6 +5962,13 @@ find-babel-config@^1.2.0:
     json5 "^0.5.1"
     path-exists "^3.0.0"
 
+find-config@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/find-config/-/find-config-1.0.0.tgz#eafa2b9bc07fa9c90e9a0c3ef9cecf1cc800f530"
+  integrity sha512-Z+suHH+7LSE40WfUeZPIxSxypCWvrzdVc60xAjUShZeT5eMWM0/FQUduq3HjluyfAHWvC/aOBkT1pTZktyF/jg==
+  dependencies:
+    user-home "^2.0.0"
+
 find-file-up@^0.1.2:
   version "0.1.3"
   resolved "https://registry.npmmirror.com/find-file-up/-/find-file-up-0.1.3.tgz#cf68091bcf9f300a40da411b37da5cce5a2fbea0"
@@ -6319,6 +6422,11 @@ github-slugger@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmmirror.com/github-slugger/-/github-slugger-1.5.0.tgz#17891bbc73232051474d68bd867a34625c955f7d"
   integrity sha512-wIh+gKBI9Nshz2o46B0B3f5k/W+WI9ZAv6y5Dn5WJ5SK1t0TnDimB4WE5rmTD05ZAIn8HALCZVmCsvj0w0v0lw==
+
+gitmojis@^3:
+  version "3.14.0"
+  resolved "https://registry.npmmirror.com/gitmojis/-/gitmojis-3.14.0.tgz#b6756f46d5b21204840ce4eadd51a5fbe07032a1"
+  integrity sha512-wPdXxKWfp2dJE6/ch8TDJjYdXvr+4uV67AEcbImj5QC4DmP6Byje1goJL8WgMPFnLY63eadK6oxtnSjdRFzS6g==
 
 glob-parent@5.1.2, glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -7175,7 +7283,7 @@ inline-style-parser@0.1.1:
   resolved "https://registry.npmmirror.com/inline-style-parser/-/inline-style-parser-0.1.1.tgz#ec8a3b429274e9c0a1f1c4ffa9453a7fef72cea1"
   integrity sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==
 
-inquirer@^6.2.2:
+inquirer@^6.2.2, inquirer@^6.3.1:
   version "6.5.2"
   resolved "https://registry.npmmirror.com/inquirer/-/inquirer-6.5.2.tgz#ad50942375d036d327ff528c08bd5fab089928ca"
   integrity sha512-cntlB5ghuB0iuO65Ovoi8ogLHiWGs/5yNrtUcKjFhSSiVeAIVpD7koaSU9RM8mpXw5YDi9RdYXGQMaOURB7ycQ==
@@ -7636,6 +7744,13 @@ is-text-path@^1.0.1:
   integrity sha512-xFuJpne9oFz5qDaodwmmG08e3CawH/2ZV8Qqza1Ko7Sk8POWbkRdwIoAWVhqvq0XeUzANEhKo2n0IXUGBm7A/w==
   dependencies:
     text-extensions "^1.0.0"
+
+is-text-path@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/is-text-path/-/is-text-path-2.0.0.tgz#b2484e2b720a633feb2e85b67dc193ff72c75636"
+  integrity sha512-+oDTluR6WEjdXEJMnC2z6A4FRwFoYuvShVVEGsS7ewc0UTi2QtAKMDJuL4BDEVt+5T7MjFo12RP8ghOM75oKJw==
+  dependencies:
+    text-extensions "^2.0.0"
 
 is-typed-array@^1.1.10, is-typed-array@^1.1.12, is-typed-array@^1.1.9:
   version "1.1.12"
@@ -8373,6 +8488,11 @@ lodash.camelcase@^4.3.0:
   resolved "https://registry.npmmirror.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==
 
+lodash.clonedeep@~4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npmmirror.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
+
 lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.npmmirror.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
@@ -8443,7 +8563,7 @@ lodash.upperfirst@^4.3.1:
   resolved "https://registry.npmmirror.com/lodash.upperfirst/-/lodash.upperfirst-4.3.1.tgz#1365edf431480481ef0d1c68957a5ed99d49f7ce"
   integrity sha512-sReKOYJIJf74dhJONhU4e0/shzi1trVbSWDOhKYE5XV2O+H7Sb2Dihwuc7xWxVl+DgFPyTqIN3zMfT9cq5iWDg==
 
-lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@~4.17.15:
+lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@~4.17.15:
   version "4.17.21"
   resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -8834,6 +8954,11 @@ memfs@^3.4.1:
   integrity sha512-EGowvkkgbMcIChjMTMkESFDbZeSh8xZ7kNSF0hAiAN4Jh6jgHCRS0Ga/+C8y6Au+oqpezRHCfPsmJ2+DwAgiwQ==
   dependencies:
     fs-monkey "^1.0.4"
+
+meow@^12.0.1:
+  version "12.1.1"
+  resolved "https://registry.npmmirror.com/meow/-/meow-12.1.1.tgz#e558dddbab12477b69b2e9a2728c327f191bace6"
+  integrity sha512-BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==
 
 meow@^8.0.0, meow@^8.1.2:
   version "8.1.2"
@@ -11867,6 +11992,13 @@ rimraf@^4.4.1:
   dependencies:
     glob "^9.2.0"
 
+rimraf@~2.6.2:
+  version "2.6.3"
+  resolved "https://registry.npmmirror.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
+  integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  dependencies:
+    glob "^7.1.3"
+
 ripemd160@^2.0.0, ripemd160@^2.0.1:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/ripemd160/-/ripemd160-2.0.2.tgz#a1c1a6f624751577ba5d07914cbc92850585890c"
@@ -12913,6 +13045,14 @@ temp-dir@1.0.0:
   resolved "https://registry.npmmirror.com/temp-dir/-/temp-dir-1.0.0.tgz#0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
   integrity sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ==
 
+temp@^0.9.0:
+  version "0.9.4"
+  resolved "https://registry.npmmirror.com/temp/-/temp-0.9.4.tgz#cd20a8580cb63635d0e4e9d4bd989d44286e7620"
+  integrity sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==
+  dependencies:
+    mkdirp "^0.5.1"
+    rimraf "~2.6.2"
+
 term-size@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/term-size/-/term-size-1.2.0.tgz#458b83887f288fc56d6fffbfad262e26638efa69"
@@ -12943,6 +13083,11 @@ text-extensions@^1.0.0:
   version "1.9.0"
   resolved "https://registry.npmmirror.com/text-extensions/-/text-extensions-1.9.0.tgz#1853e45fee39c945ce6f6c36b2d659b5aabc2a26"
   integrity sha512-wiBrwC1EhBelW12Zy26JeOUkQ5mRu+5o8rpsJk5+2t+Y5vE7e842qtZDQ2g1NpX/29HdyFeJ4nSIhI47ENSxlQ==
+
+text-extensions@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.npmmirror.com/text-extensions/-/text-extensions-2.4.0.tgz#a1cfcc50cf34da41bfd047cc744f804d1680ea34"
+  integrity sha512-te/NtwBwfiNRLf9Ijqx3T0nlqZiQ2XrrtBvu+cLL8ZRrGkO0NHTug8MYFKyoSrv/sHTaSKfilUkizV6XhxMJ3g==
 
 text-table@^0.2.0:
   version "0.2.0"
@@ -13273,7 +13418,7 @@ typescript-transform-paths@3.4.6:
   dependencies:
     minimatch "^3.0.4"
 
-"typescript@>=3 < 6", "typescript@^4.6.4 || ^5.0.0":
+"typescript@>=3 < 6", typescript@^5.2.2:
   version "5.2.2"
   resolved "https://registry.npmmirror.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
@@ -13519,6 +13664,13 @@ use-isomorphic-layout-effect@^1.1.1:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz#497cefb13d863d687b08477d9e5a164ad8c1a6fb"
   integrity sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==
+
+user-home@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/user-home/-/user-home-2.0.0.tgz#9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
+  integrity sha512-KMWqdlOcjCYdtIJpicDSFBQ8nFwS2i9sslAd6f4+CBGcU4gist2REnr2fxj2YocvJFxSF3ZOHLYLVZnUxv4BZQ==
+  dependencies:
+    os-homedir "^1.0.0"
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
@@ -13791,6 +13943,11 @@ widest-line@^2.0.0:
   integrity sha512-Ba5m9/Fa4Xt9eb2ELXt77JxVDV8w7qQrH0zS/TWSJdLyAwQjWoOzpzj5lwVftDz6n/EOu3tNACS84v509qwnJA==
   dependencies:
     string-width "^2.1.1"
+
+word-wrap@^1.2.3:
+  version "1.2.5"
+  resolved "https://registry.npmmirror.com/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
+  integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
 wordwrap@^1.0.0:
   version "1.0.0"

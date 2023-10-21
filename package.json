@@ -16,7 +16,8 @@
     "fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src ",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "commit": "git add . && cz-customizable"
   },
   "authors": [],
   "license": "MIT",
@@ -53,13 +54,17 @@
     "react-dom": ">=16.9.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
+    "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^17.1.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "@umijs/lint": "^4.0.0",
+    "commitlint-config-cz": "^0.13.3",
+    "commitlint-config-git-commit-emoji": "^1.0.0",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "cz-customizable": "^7.0.0",
     "dumi": "^2.2.9",
     "eslint": "^8.23.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -89,5 +94,10 @@
   "workspaces": [
     "src/*"
   ],
-  "private": true
+  "private": true,
+  "husky": {
+    "hooks": {
+    "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
 }
