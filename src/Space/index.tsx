@@ -19,6 +19,7 @@ const Space: React.FC<SpaceProps> = (props) => {
   });
   return (
     <div className={classes}>
+      <div></div>
       {children.map((child, index: number) => (
         <Item key={index}>{child}</Item>
       ))}
