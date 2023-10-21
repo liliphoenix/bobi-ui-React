@@ -1,20 +1,17 @@
-import React from 'react';
-import {Icon,Space} from 'bobi-ui'
+import { Icon, Space } from "bobi-ui";
+import React from "react";
 
-const App: React.FC = () => {
-    
-  return (
-    <Space>
-        <Icon type="toutiao-yanzhengma"></Icon> 
-        <Icon type="toutiao-dianzan"></Icon> 
-        <Icon type="toutiao-chanpin"></Icon> 
-        <Icon type="toutiao-pinglun"></Icon> 
-        <Icon type="toutiao-fenxiang"></Icon> 
-        <Icon type="toutiao-guanbi"></Icon> 
-        <Icon type="toutiao-shoucang"></Icon> 
-        <Icon type="toutiao-check-circle"></Icon> 
-        <Icon type="toutiao-loading1" ></Icon>
-    </Space>
-  );
-};
+const App: React.FC = () => (
+  <Space>
+    <Icon type="toutiao-yanzhengma" />
+    <Icon type="toutiao-dianzan" />
+    <Icon type="toutiao-chanpin" />
+    <Icon type="toutiao-pinglun" />
+    <Icon type="toutiao-fenxiang" />
+    <Icon type="toutiao-guanbi" />
+    <Icon type="toutiao-shoucang" />
+    <Icon type="toutiao-check-circle" />
+    <Icon type="toutiao-loading1" />
+  </Space>
+);
 export default App;

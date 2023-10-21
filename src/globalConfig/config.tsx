@@ -1,13 +1,11 @@
-
 import { createContext } from "react";
 
-interface globalType{
-    globalPrefix?:string
+interface globalType {
+  globalPrefix?: string;
 }
-const global:globalType={
-    globalPrefix:"bobi-ui"
-}
-export const ProviderConfig=createContext({
-    globalPrefix:global.globalPrefix
-})
-
+const global: globalType = {
+  globalPrefix: "bobi-ui"
+};
+export const ProviderConfig = createContext({
+  globalPrefix: global.globalPrefix
+});

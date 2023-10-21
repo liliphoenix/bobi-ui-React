@@ -1,0 +1,26 @@
+{
+  "name": "grid",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Blue_Wind <1090851297@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/grid.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/battm/bobi-ui.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/grid.test.js"
+  }
+}

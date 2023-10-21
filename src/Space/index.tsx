@@ -1,9 +1,10 @@
-import classNames from 'classnames';
-import React, { useContext } from 'react';
-import { ProviderConfig } from '../globalConfig/config';
-import Item from './Item';
-import { alignType } from './SpaceTypes';
-import './style/index.less';
+import classNames from "classnames";
+import React, { useContext } from "react";
+import { ProviderConfig } from "../globalConfig/config";
+import Item from "./Item";
+import { alignType } from "./SpaceTypes";
+import "./style/index.less";
+
 interface SpaceProps {
   children: React.ReactNode;
   align?: alignType;
@@ -12,15 +13,15 @@ interface SpaceProps {
 const Space: React.FC<SpaceProps> = (props) => {
   const { children, align } = props;
   const { globalPrefix } = useContext(ProviderConfig);
-  const prefix = globalPrefix + '-space';
+  const prefix = `${globalPrefix}-space`;
   const classes = classNames(prefix, {
-    [`${prefix}-${align}`]: align,
+    [`${prefix}-${align}`]: align
   });
   return (
     <div className={classes}>
-      {children.map((child) => {
-        return <Item>{child}</Item>;
-      })}
+      {children.map((child, index: number) => (
+        <Item key={index}>{child}</Item>
+      ))}
     </div>
   );
 };
