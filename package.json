@@ -53,6 +53,7 @@
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
   },
+  
   "devDependencies": {
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^17.1.0",
